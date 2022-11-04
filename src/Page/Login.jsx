@@ -26,7 +26,6 @@ export function Login(props) {
             <br></br>
             <Card style={{ width: "50%", margin: "20px auto" }}>
                 <Card.Body>
-                    <img src={require('./aaa.jpg')} width="10%" height="11%" />
                     <Card.Title style={{marginTop: "15px"}}>Login with your PasteBin Account</Card.Title>
                     <InputGroup className="mb-3" style={{ width: "50%", margin: "20px auto" }} onChange={(e) => setEmail(e.target.value)}>
                         <InputGroup.Text>Email</InputGroup.Text>
