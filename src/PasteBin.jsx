@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Register } from './Page/Register';
-import { Login } from './Page/Login';
-import { List } from './Page/List';
-import { Home } from './Page/Home';
-import { AddPost } from './Page/AddPost';
+import { Register } from './components/User/Register';
+import { Login } from './components/User/Login';
+import { List } from './components/Paste/List';
+import { Home } from './components/Paste/Home';
+import { AddPost } from './components/Paste/AddPost';
 import { Link, Routes, Route} from 'react-router-dom';
 import { getFirestore } from "firebase/firestore"; 
 
