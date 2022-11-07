@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
-import { AddPost } from './AddPost'
 
 export function Home(props) {
 
     return(
         <div>
-            <AddPost db={props.db} allPosts={props.allPosts} userLoggedIn={props.userLoggedIn} />
+            <h1> Welcome to my Pastebin App </h1>
+            <h2> Here is a photo with a dog </h2>
+            <img src={require('./dog.jpg')} style={{width: "30%", height: "30%"}} />
         </div>
     )
 }
